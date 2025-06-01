@@ -1,0 +1,19 @@
+{
+    "name": "abertime/novapay-sdk",
+    "description": "PHP SDK for novapay Business API",
+    "type": "library",
+    "require": {
+        "php": ">=7.4",
+        "ext-soap": "*",
+        "ext-pdo": "*"
+    },
+    "autoload":{
+        "psr-4": {
+            "Abertime\\NovaPaySDK\\": "src/"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {"name": "Abertime", "email": "manager@abertime.com.ua"}
+    ]
+}
